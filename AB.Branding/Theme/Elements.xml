@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Theme" Url="_catalogs/theme/15">
+    <File Path="Theme\Abastecimiento2013.spcolor" Url="Abastecimiento2013.spcolor" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Master Page" Url="_catalogs/masterpage">
+    <File Path="Master Page\Abastecimiento2013.master" Url="Abastecimiento2013.master" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE">
+      <Property Name="Title" Value="Abastecimiento" />
+      <Property Name="MasterPageDescription" Value="Branding Abastecimiento 2013"/>
+      <Property Name="UIVersion" Value="15"/>
+      <Property Name="DefaultCssFile" Value="corev15app.css"/>
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+      <Property Name="FeatureId" Value="$SharePoint.Feature.Id$" Type="string"/>
+    </File>
+    <File Path="Master Page\Abastecimiento2013.preview" Url="Abastecimiento2013.preview" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

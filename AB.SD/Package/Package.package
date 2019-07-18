@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="5bd86a9f-e055-43d7-a756-cf88953bb39f" 
+        solutionId="5bd86a9f-e055-43d7-a756-cf88953bb39f" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="AB.SD"
+        sharePointProductVersion="15.0">
+</package>

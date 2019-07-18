@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Style Library" Url="Style Library">
+    <File Path="Style Library\Abastecimiento\js\jquery-2.1.4.min.js" Url="Abastecimiento/js/jquery-2.1.4.min.js" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\js\SharePoint2013.js" Url="Abastecimiento/js/SharePoint2013.js" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\js\PortalAbastecimiento.js" Url="Abastecimiento/js/PortalAbastecimiento.js" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\css\PortalAbastecimiento.css" Url="Abastecimiento/css/PortalAbastecimiento.css" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\css\SharePoint2013.css" Url="Abastecimiento/css/SharePoint2013.css" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\img\Master\acciones.png" Url="Abastecimiento/img/Master/acciones.png" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\img\Master\arrowleft_dark_hover.gif" Url="Abastecimiento/img/Master/arrowleft_dark_hover.gif" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\img\Master\BandaPersonalDegrade.png" Url="Abastecimiento/img/Master/BandaPersonalDegrade.png" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\img\Master\HamburguerMenuBlanco.png" Url="Abastecimiento/img/Master/HamburguerMenuBlanco.png" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\img\Master\HeaderBuscador.png" Url="Abastecimiento/img/Master/HeaderBuscador.png" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\img\Master\icon-arrow-down.png" Url="Abastecimiento/img/Master/icon-arrow-down.png" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\img\Master\more_arrow.png" Url="Abastecimiento/img/Master/more_arrow.png" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\img\Logos\SiteLogo.png" Url="Abastecimiento/img/Logos/SiteLogo.png" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+    <File Path="Style Library\Abastecimiento\img\Logos\SofrecomFeature.png" Url="Abastecimiento/img/Logos/SofrecomFeature.png" Type="GhostableInLibrary" Level="Published" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

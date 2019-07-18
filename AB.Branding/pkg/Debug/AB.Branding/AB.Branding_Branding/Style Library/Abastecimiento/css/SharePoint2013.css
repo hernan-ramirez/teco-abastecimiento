@@ -1,0 +1,709 @@
+﻿/* Generales */
+body{
+    height: 100%;
+    overflow: auto;
+}
+
+/* Links */
+a:visited {
+    color: #008693;
+    text-decoration:none;
+}
+
+a:hover {
+    opacity: .85;
+    text-decoration: none;
+}
+.ms-cui-topBar2 {
+    border-bottom: 0;
+}
+.ms-cui-TabRowRight {
+    padding-right: 0;
+}
+#DeltaSuiteLinks {
+    display: inline-block;
+    vertical-align: top;
+}
+.ms-core-suiteLink-a,
+.ms-core-suiteLink-a:visited,
+a.ms-core-suiteLink-disabled {
+    color: inherit;
+    text-decoration: none;
+    height: 30px;
+}
+.ms-core-suiteLink-a:hover {
+    background-color: transparent;
+    color: #0072c6;
+}
+.ms-core-suiteLink-a #Suite_ActiveLinkIndicator_Clip {
+    display: none;
+}
+
+/* Header */
+#s4-titlerow {
+    max-height: 50px;
+    padding-top: 0px;
+    height: auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    width: 100%;
+    position: fixed;
+    z-index: 901;
+    top: 35px;
+    left: 0;
+}
+.s4-titlerowScroll{
+    top: 0 !Important;
+}
+#s4-titlerow[style*="display: none"] + div#contentRow{
+    padding-top: 10px;
+}
+#titleAreaBox {
+    line-height: 50px;
+    margin: auto 30px !Important;
+}
+
+/* DeltaTopNavigation */
+#DeltaTopNavigation li.dynamic-children{
+	height:0px !Important;
+}	         
+#DeltaTopNavigation .ms-listMenu-editLink{
+    display: none !Important;
+} 
+.ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item {
+    border-width: 0;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0 15px;
+    margin: 0;
+}
+.ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item:hover {
+    background-color: #5a2185 !Important;
+}
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:hover,
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item.ms-core-listMenu-selected:hover,
+a.ms-tv-item:hover,
+a.ms-tv-header:hover {
+    background-color: #5a2185 !Important;
+    color: #ffffff;
+}
+.ms-core-listMenu-horizontalBox .dynamic-children.additional-background {
+    padding-right: 0;
+    background-image: url("../img/Master/icon-arrow-down.png");
+    background-repeat: no-repeat;
+    background-position: 50% 85%;
+    display: inline-block;
+}
+.ms-core-navigation ul.dynamic {
+    padding: 0;
+    border-width: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.dynamic-children > .menu-item-text {
+    height: 85px;
+    display: inline-block;
+}
+li.static.hover {
+    background-color: #1BA1E2;
+    color: #ffffff;
+}
+.ms-core-navigation li.dynamic a {
+    padding: 6px 15px;
+}
+.ms-core-navigation li.dynamic {
+    border-bottom: 1px solid #8de1ff;
+}
+ul.ms-core-listMenu-root > li.static > a.static {
+    /* display: none; */
+}
+.navbar-separator {
+    margin: 0px 10px;
+    width: 0;
+    vertical-align: middle;
+    /*border-left: 1px solid rgba(20, 154, 157, 0.4);*/
+    border-left: 1px solid rgba(139, 99, 169, 0.4);
+
+    display: inline-block;
+    min-height: 50px;
+    height: 100%;
+}
+#DeltaTopNavigation
+.ms-core-listMenu-item,
+.ms-core-listMenu-item:link,
+.ms-core-listMenu-item:visited {
+    color: #fff !Important;
+    text-decoration: none;
+}
+.ms-core-listMenu-item,
+.ms-core-listMenu-item:link,
+.ms-core-listMenu-item:visited,
+.ms-tv-item:link,
+.ms-tv-item:visited,
+.ms-tv-header:link,
+.ms-tv-header:visited {
+    color: #666 !Important;
+    text-decoration: none;
+}
+ul.dynamic {
+    position:absolute;
+    left:-9999px;
+    top:-9999px;
+    z-index:50;
+    background-color:rgba(30, 195, 255,.9) !important;
+    background-color: #1ec3ff;
+    white-space:normal;
+    word-wrap:break-word;
+    padding:10px;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+/* Botones */
+input[type=button],
+input[type=reset],
+input[type=submit],
+button {
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-radius: 3px;
+    font-size: 13px !Important;
+}
+
+/* Logo */
+.ms-siteicon-img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ms-siteicon-a {
+    line-height: 90px;
+}
+
+/* Buscador */
+#SearchBox .ms-textSmall{
+    width: 120px;
+}
+.ms-mpSearchBox {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    vertical-align: middle;
+    line-height: normal;
+    padding-left: 6px;
+    padding-right: 7px;
+    margin-top: 9px;
+}
+#searchInputBox {
+    margin-bottom: 0px;
+    float: none;
+    display: inline-block;
+    vertical-align: middle
+}
+.ms-srch-sb>input,
+.ms-srch-sb>input:focus {
+    height: 30px;
+    background-color: #ffffff;
+}
+.ms-srch-sb-border,
+.ms-srch-sb-borderFocused {
+    border-color: transparent;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+.ms-srch-sb-borderFocused {
+    border-color: #00B7D7;
+}
+.ms-srch-sb-border:hover {
+    Border:  1px solid #5a2185;
+}
+.ms-srch-sb > .ms-srch-sb-searchLink {
+    border-left: 1px solid #c7c7c7;
+    margin-left:-1px;
+    height:20px;
+    width: 24px !important;
+}
+.ms-srch-sb-navLink,
+.ms-srch-sb-searchLink {
+    vertical-align: middle;
+}
+.ms-srch-sb-searchLink:hover,
+.ms-srch-sb-navLink:hover,
+.ms-srch-sb-searchLink:active {
+    background-color: transparent;
+}
+.ms-srch-sb-searchImg {
+    left: 2px !important;
+    top: -70px !important;
+    position:absolute;
+    opacity: .7 !important;
+}
+.ms-srch-sb-searchImg:hover {
+    opacity: 1 !important;
+}
+
+/* Usuario */
+#welcomeMenuBox {
+    vertical-align: middle;
+    line-height: normal;
+}
+.ms-menu-althov .ms-viewselector-arrow img {
+    display: none!important;
+}
+.ms-welcome-root,
+.ms-siteactions-normal {
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.ms-welcome-root > a.ms-core-menu-root,
+.ms-signInLink {
+    color: #ffffff;
+}
+.ms-welcome-hover,
+.ms-siteactions-hover {
+    background-color: #5a2185;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+#siteactiontd {
+    vertical-align: middle;
+    line-height: normal;
+}
+img.ms-core-menu-buttonIcon {
+    visibility: hidden;
+}
+span.ms-siteactions-imgspan {
+    background: url(../img/Master/acciones.png) no-repeat -1px -1px;
+}
+
+/* Cuerpo */
+#s4-workspace{
+    overflow: inherit;
+}
+#s4-workspace.ms-core-overlay{
+	background-color: transparent !Important;
+}
+#s4-bodyContainer {
+    padding-bottom: 0px;
+}
+#contentRow {
+    padding-top: 60px;
+    clear: both;
+    position: relative;
+}
+html.ms-dialog #contentRow{
+    padding-top: 0px;
+}
+.ms-breadcrumb-top {
+    margin: auto 20px;
+}
+.ms-core-pageTitle {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.ms-breadcrumb-box {
+    height: auto;
+    vertical-align: middle;
+}
+table#onetIDListForm {
+    margin: auto;
+    min-width: 800px;
+}
+#DeltaTopNavigation {
+    line-height: 50px;
+    display: inline-block;
+}
+div#siteIcon {
+    min-height: 90px;
+}
+#DeltaTopNavigation > div {
+    display: block;
+    height: 90px;
+}
+.ms-core-needIEFilter .ms-welcome-root {
+	border-left-color:transparent;
+}
+div#navresizerVerticalBar {
+    display: none;
+}
+.ms-tv-box .ms-navresizeractive-resizetarget {
+    margin: 10px 0;
+    border: 1px solid #E5E5E5;
+}
+div#navresizerHorizontalBar {
+    display: none;
+}
+.ms-formtable table[id$=_ChoiceRadioTable] tr{
+    display:inline-block;
+    margin-left:10px;
+}
+.ms-cui-tabContainer  {
+    border-left: 0 !Important; 
+    border-right: 0 !Important;
+}
+
+/* Ocultar y mostrar navegacion quicklaunch */
+.ocultarNavegacion #contentBox{
+	margin-left: 20px;
+}
+.ocultarNavegacion div#sideNavBox{
+	display: none !Important;
+}
+
+/* Top Navigation SharePoint BootStrap */
+#dcNavegacionSharePoint .navbar{
+    background-color: #008693 !Important;
+    margin: 0 !Important;
+    border: none !Important;
+    height: 50px;
+    border-radius: 0;
+}
+#dcNavegacionSharePoint .navbar .container {
+	padding-left: 50px;
+	padding-right: 46px;
+	height: 50px;
+}
+#dcNavegacionSharePoint .navbar-default .navbar-nav > li > a{
+    color: #fff !Important;
+    font-weight: bold;
+    display: inline-block;
+	opacity: 1;
+}
+#dcNavegacionSharePoint .navbar-brand {
+    padding: 14px 10px !important;
+    margin-right: 14px;
+}
+#dcNavegacionSharePoint .navbar-text {
+    margin-top: 9px !important;
+    margin-bottom: 9px !important;
+}
+#dcNavegacionSharePoint .dropdown-menu {
+	padding: 0 !important;
+	font-size: 13px !important;
+	border: 0px;
+	background: none !important;
+	border-top: 1px solid #008693 !important;
+}
+#dcNavegacionSharePoint .dropdown-menu>li{  
+    border-bottom: 1px solid #008693 !important;
+}
+#dcNavegacionSharePoint .dropdown-menu>li>a {
+    line-height: 1.428571429;
+    color: #fff !important;
+    background-color: rgba(49, 187, 172, 0.9);
+    /*background-color: rgba(139, 99, 169, 0.9);*/
+    white-space: nowrap;
+    padding: 6px 15px !important;
+    border-bottom: none !important;
+}
+#dcNavegacionSharePoint .dropdown-menu>li>a:hover,
+#dcNavegacionSharePoint .dropdown-menu>li>a:focus {
+    text-decoration: none;
+    background-color: #008693 !important;
+    opacity: 1;
+}
+#dcNavegacionSharePoint .navbar-default .navbar-nav > li > a:hover{
+	background-image: url(../img/Master/icon-arrow-down.png);
+	background-repeat: no-repeat;
+	background-position: 50% 85%;
+	/*background-color: rgba(20, 154, 157, 0.4);*/
+    background-color: rgba(139, 99, 169, 0.4);
+
+}
+#dcNavegacionSharePoint .navbar-default .navbar-nav > li > a:active,
+#dcNavegacionSharePoint .navbar-default .navbar-nav > li > a:focus {
+	background-image: url(../img/Master/icon-arrow-down.png);
+	background-repeat: no-repeat;
+	background-position: 50% 85%;
+	background-color: #008693;
+}
+#dcNavegacionSharePoint .nav .open>a,
+#dcNavegacionSharePoint .nav .open>a:hover,
+#dcNavegacionSharePoint .nav .open>a:focus {
+    border-color: #008693 !important;
+}
+#dcNavegacionSharePoint .navbar-default .navbar-nav>.open>a,
+#dcNavegacionSharePoint .navbar-default .navbar-nav>.open>a:hover,
+#dcNavegacionSharePoint .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #008693 !important;
+}
+#dcNavegacionSharePoint #navSPBarraBuscador{
+    text-align: center; 
+    background-color: rgb(240, 240, 240); 
+    height: 60px; 
+    padding-top: 10px; 
+    display: none;
+}
+#dcNavegacionSharePoint .navbuscadorGeneral {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media (min-width: 1200px) {
+	#dcNavegacionSharePoint .navbar .container {
+		width: 1320px !important;
+	}
+}
+@media (max-width: 1299px) { 
+    #dcNavegacionSharePoint #navSPBarraBuscador #SearchBox .ms-textSmall{
+        width: 500px !Important;
+        height: 40px !Important;
+    }
+}
+@media (max-width: 767px) { 
+    #dcNavegacionSharePoint #navSPBarraBuscador #SearchBox .ms-textSmall{
+        width: 220px !Important;
+        height: 40px !Important;
+    }
+}
+@media (max-width: 999px) { 
+    #dcNavegacionSharePoint .navbar-collapse .navbar-separator {
+        display: none;
+    }
+    #dcNavegacionSharePoint .navbar-brand{
+        padding-left: 8px !Important;
+    }
+}
+@media (max-width: 550px) {
+    #dcNavegacionSharePoint #searchInputBox {
+        width: 60%;
+    }
+}
+#dcNavegacionSharePoint #navSPBarraBuscador .ms-srch-sb-border, .ms-srch-sb-borderFocused{
+    border-color: #3BAFE7 !Important;
+}
+#dcNavegacionSharePoint #toggleNavegacionSharePoint{
+    float: left;
+    margin-top: 14px;
+}
+#dcNavegacionSharePoint .clearFixNavegacionBS{
+    display: none !Important;
+} 
+#dcNavegacionSharePoint .navbar-collapse.in,
+#dcNavegacionSharePoint .navbar-collapse.collapsing{
+    background-color: #008693 !Important;
+}
+
+/* Con esto cambio el breakpoint de la navbar */
+@media (max-width: 1000px) {
+    #dcNavegacionSharePoint .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+        margin-left: 0px !Important;
+    }
+    #dcNavegacionSharePoint .clearFixNavegacionBS{
+        display: block !Important;
+    }
+    #dcNavegacionSharePoint #toggleNavegacionSharePoint{
+        display: block;
+    }
+    #dcNavegacionSharePoint .navbar-toggle {
+        display: block;
+    }
+    #dcNavegacionSharePoint .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    #dcNavegacionSharePoint .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    #dcNavegacionSharePoint .navbar-collapse.collapse {
+        display: none!important;
+    }
+    #dcNavegacionSharePoint .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    #dcNavegacionSharePoint .navbar-nav>li {
+        float: none;
+    }
+    #dcNavegacionSharePoint .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #dcNavegacionSharePoint .collapse.in{
+        display:block !important;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    #dcNavegacionSharePoint .navbarHeaderLeft .lupaBuscadorGeneral {
+		display: inline-block;
+	}
+    #dcNavegacionSharePoint .navBuscadores .lupaBuscadorGeneral {
+		display: none;
+	}
+}
+@media (min-width: 1000px) and (max-width: 1299px) {
+    #dcNavegacionSharePoint .navbarHeaderLeft .lupaBuscadorGeneral {
+		display: none;
+	}
+    #dcNavegacionSharePoint .navBuscadores .lupaBuscadorGeneral {
+		display: inline-block;
+	}
+}
+#dcNavegacionSharePoint .lupaBuscadorGeneral {
+    display: none;
+    background-image: url("../img/Master/HeaderBuscador.png");
+    width: 30px;
+    height: 27px;
+    cursor: pointer;
+}
+#dcNavegacionSharePoint #navBuscadores {
+    display: inline-block;
+}
+.openToggleNavSharepointBSBlanco{
+    display: none;
+    float: right;
+    width: 36px;
+    height: 26px;
+    background-image: url('../img/Master/HamburguerMenuBlanco.png');
+    background-repeat: no-repeat;
+    background-position: -6px -60px;
+    cursor: pointer;
+}
+.closeToggleNavSharepointBSBlanco{
+    background-position: -8px -12px !Important;
+}
+/* Fin Top Navigation SharePoint BootStrap */
+
+/* SP Modal Dialog */
+.ms-dlgContent{
+    position: fixed;
+}
+.ms-dlgOverlay {
+	opacity: 0.9;
+	background-color: #2b2e38;
+}
+
+.ms-dlgTitleText{
+    margin: 0px !Important;
+    font-family: "Platform-medium";
+    font-size: 18px;
+}
+
+.ms-dlgTitle{
+    padding: 20px 22px 10px 22px !Important;
+}
+
+.ms-dlgFrameContainer {
+    padding: 0px 19px 10px;
+}
+
+.contenidoModalSP{
+    width: 100%;
+    height: 100%;
+}
+
+/* Generales*/
+.ms-linksection-listItem{
+    white-space: nowrap;
+}
+.ms-long .ms-input select[id$='SelectCandidate']{
+    min-width: 150px !Important;
+    max-width: 300px  !Important;
+    width: auto  !Important;
+    height: 200px  !Important;
+}
+.ms-long .ms-input select[id$='SelectResult']{
+    min-width: 150px  !Important;
+    max-width: 300px  !Important;
+    width: auto  !Important;
+    height: 200px  !Important;
+}
+body {
+	font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif !Important;
+}
+/* Fin Generales */
+
+/* Cosas que Bootstrap desconfigura */
+#s4-ribbonrow *,
+#s4-ribbonrow *:before,
+#s4-ribbonrow *:after,
+#ms-help *,
+*[class*='ms-core-menu'],
+*[class*='ms-dlg'],
+*[class*='ms-dlg']:before,
+*[class*='ms-dlg']:after,
+.ms-dlgFrameContainer > div,
+.ms-dlgFrameContainer > div:before,
+.ms-dlgFrameContainer > div:after,
+.ms-dlgFrameContainer > div > div,
+.ms-dlgFrameContainer > div > div:before,
+.ms-dlgFrameContainer > div > div:after,
+.ms-MenuUIPopupBody,
+.ms-MenuUIPopupBody:before,
+.ms-MenuUIPopupBody:after,
+.ms-MenuUIPopupBody *,
+.ms-MenuUIPopupBody *:before,
+.ms-MenuUIPopupBody *:after,
+.ms-ToolPaneOuter,
+.ms-ToolPaneOuter:before,
+.ms-ToolPaneOuter:after,
+.ms-ToolPaneOuter *,
+.ms-ToolPaneOuter *:before,
+.ms-ToolPaneOuter *:after,
+*[class*='ms-cui'],
+*[class*='ms-cui']:before,
+*[class*='ms-cui']:after,
+*[class*='ms-cui'] *,
+*[class*='ms-cui'] *:before,
+*[class*='ms-cui'] *:after,
+*[class*='ms-dlg'] *,
+*[class*='ms-dlg'] *:before,
+*[class*='ms-dlg'] *:after,
+.ms-commandLink,
+.ms-webpart-menuLink,
+.jsgrid-control-editbox {
+    -webkit-box-sizing: content-box !Important;
+    -moz-box-sizing: content-box !Important;
+    box-sizing: content-box !Important;
+}
+input[type="checkbox"] {
+    margin: 3px 3px 3px 4px !Important;
+}
+input[type="radio"] {
+    margin: 3px 3px 0px 5px !Important;
+}
+label{
+    font-weight: initial !Important;
+    margin: initial !Important;
+}
+/* Fin Cosas que Bootstrap desconfigura*/
+
+/* Custom Scroll Bar */
+.customScrollBar::-webkit-scrollbar,
+.customScrollBar2::-webkit-scrollbar {
+    height: 18px;
+    width: 8px;
+    cursor: pointer !Important;
+}
+.customScrollBar::-webkit-scrollbar-corner,
+.customScrollBar2::-webkit-scrollbar-corner {
+    background-color: #fff;
+}
+.customScrollBar::-webkit-scrollbar-thumb:hover {
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+}
+.customScrollBar2::-webkit-scrollbar-thumb:hover {
+    border-radius: 5px;
+    border: none;
+    background-color: #32322d;
+}
+.customScrollBar::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.60);
+}
+.customScrollBar2::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(50,50,45, 0.60);
+}
+.customScrollBar::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.20);
+    border-radius: 5px;
+}
+.customScrollBar2::-webkit-scrollbar-track {
+    background-color: rgba(50,50,45, 0.20);
+    border-radius: 5px;
+}

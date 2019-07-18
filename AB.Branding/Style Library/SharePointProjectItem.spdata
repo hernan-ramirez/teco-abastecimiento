@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Style Library\" Type="ElementManifest" />
+    <ProjectItemFile Source="Abastecimiento\js\SharePoint2013.js" Target="Style Library\Abastecimiento\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\js\PortalAbastecimiento.js" Target="Style Library\Abastecimiento\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\css\PortalAbastecimiento.css" Target="Style Library\Abastecimiento\css\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\css\SharePoint2013.css" Target="Style Library\Abastecimiento\css\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\js\jquery-2.1.4.min.js" Target="Style Library\Abastecimiento\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\img\Master\acciones.png" Target="Style Library\Abastecimiento\img\Master\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\img\Master\arrowleft_dark_hover.gif" Target="Style Library\Abastecimiento\img\Master\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\img\Master\BandaPersonalDegrade.png" Target="Style Library\Abastecimiento\img\Master\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\img\Master\HamburguerMenuBlanco.png" Target="Style Library\Abastecimiento\img\Master\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\img\Master\HeaderBuscador.png" Target="Style Library\Abastecimiento\img\Master\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\img\Master\icon-arrow-down.png" Target="Style Library\Abastecimiento\img\Master\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\img\Master\more_arrow.png" Target="Style Library\Abastecimiento\img\Master\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\img\Logos\SiteLogo.png" Target="Style Library\Abastecimiento\img\Logos\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento\img\Logos\SofrecomFeature.png" Target="Style Library\Abastecimiento\img\Logos\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

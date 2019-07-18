@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="a0f66ed5-696b-4fe5-af8d-e987202eac04" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="AB.Branding.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="AB.Branding_Branding\Feature.xml" />
+  </FeatureManifests>
+</Solution>

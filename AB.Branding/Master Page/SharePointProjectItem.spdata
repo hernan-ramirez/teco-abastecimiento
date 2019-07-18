@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Master Page\" Type="ElementManifest" />
+    <ProjectItemFile Source="Abastecimiento2013.master" Target="Master Page\" Type="ElementFile" />
+    <ProjectItemFile Source="Abastecimiento2013.preview" Target="Master Page\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

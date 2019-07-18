@@ -1,0 +1,289 @@
+﻿/* Agregar las font al seleccionar tipo de fuente en un rich text field */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  /* Agregar las font al seleccionar tipo de fuente en un rich text field */
+.ms-rteFontFace-20
+{
+   -ms-name: "Platform-hairline";
+   font-family: "Platform-hairline";
+}
+
+.ms-rteFontFace-21
+{
+   -ms-name: "Platform-light";
+   font-family: "Platform-light";
+}
+
+.ms-rteFontFace-22
+{
+   -ms-name: "Platform-regular";
+   font-family: "Platform-regular";
+}
+
+.ms-rteFontFace-23
+{
+   -ms-name: "Platform-medium";
+   font-family: "Platform-medium";
+}
+
+.ms-rteFontFace-24
+{
+   -ms-name: "Platform-bold";
+   font-family: "Platform-bold";
+}
+
+.ms-rteFontFace-25
+{
+   -ms-name: "Roboto Thin";
+   font-family: "robotothin";
+}
+
+.ms-rteFontFace-26
+{
+   -ms-name: "Roboto Light";
+   font-family: "robotolight";
+}
+
+.ms-rteFontFace-27
+{
+   -ms-name: "Roboto Regular";
+   font-family: "robotoregular";
+}
+
+.ms-rteFontFace-28
+{
+   -ms-name: "Roboto Medium";
+   font-family: "robotomedium";
+}
+
+.ms-rteFontFace-29
+{
+   -ms-name: "Roboto Bold";
+   font-family: "robotobold";
+}
+
+/* Agregar los elementos html personalizados en un rich text field */ 
+h4.ms-rteElement-copete {
+    -ms-name:"Copete";
+}
+.ms-rteElement-copete {
+    font-size: 20px;
+    color: #32322d;
+    line-height: 28px; 
+    padding-bottom: 20px;
+    font-family: "robotoregular";
+}
+
+p.ms-rteElement-parrafoIntranet {
+    -ms-name:"Párrafo Intranet";
+}
+.ms-rteElement-parrafoIntranet {
+    font-size: 14px;
+    color: #32322d;
+    line-height: 1.6;
+    font-family: "robotolight"; 
+}
+
+h1.ms-rteElement-titulo1Intranet {
+    -ms-name:"Título 1 Intranet";
+}
+.ms-rteElement-titulo1Intranet {
+    font-size: 24px;
+    color: #32322d;
+    padding-bottom: 10px; 
+    padding-top: 20px;
+    font-family: "Platform-medium";
+}
+
+h2.ms-rteElement-titulo2Intranet {
+    -ms-name:"Título 2 Intranet";
+}
+.ms-rteElement-titulo2Intranet {
+    font-size: 20px;
+    color: #32322d;
+    padding-bottom: 10px; 
+    padding-top: 15px;
+    font-family: "Platform-medium";
+}
+
+h3.ms-rteElement-titulo3Intranet {
+    -ms-name:"Título 3 Intranet";
+}
+.ms-rteElement-titulo3Intranet {
+    font-size: 18px;
+    color: #32322d;
+    padding-bottom: 10px; 
+    padding-top: 12px;
+    font-family: "Platform-regular";
+}
+
+p.ms-rteElement-epigrafe {
+    -ms-name:"Epígrafe";
+}
+.ms-rteElement-epigrafe {
+    font-size: 14px;
+    color: #32322d;
+    font-style: italic;
+    line-height: 1.6;
+    font-family: "robotoregular";
+}
+
+/* Agregar los estilos personalizados en un rich text field */ 
+.ms-rteStyle-colorCeleste {
+    -ms-name:"Color Celeste";
+}
+.ms-rteStyle-colorCeleste {
+    color: #1ec3ff;
+}
+
+.ms-rteStyle-colorAzul {
+    -ms-name:"Color Azul";
+}
+.ms-rteStyle-colorAzul {
+    color: #055fa5;
+}
+
+.ms-rteStyle-colorAzulOscuro {
+    -ms-name:"Color Azul Oscuro";
+}
+.ms-rteStyle-colorAzulOscuro {
+    color: #231e5f;
+}
+
+.ms-rteStyle-colorVioleta {
+    -ms-name:"Color Violeta";
+}
+.ms-rteStyle-colorVioleta {
+    color: #5f2d82;
+}
+
+.ms-rteStyle-colorRosa {
+    -ms-name:"Color Rosa";
+}
+.ms-rteStyle-colorRosa {
+    color: #ff7da5;
+}
+
+.ms-rteStyle-colorMagenta {
+    -ms-name:"Color Magenta";
+}
+.ms-rteStyle-colorMagenta {
+    color: #e10f7d;
+}
+
+/* Generales */
+.titularPagina{
+    border-bottom: 1px dotted #231e5f
+}
+
+.titularPagina h2{
+    color: #5F2D82;
+    text-align: left;
+    line-height: 1.4;
+    font-size: 32px;
+    font-family: 'Platform-light';
+    margin-top: 18px;
+    margin-bottom: 9px;
+}
+
+.campoObligatorio {
+    color: red;
+}
+
+.formLeyendaMensajeImportante{
+    font-family: "robotoregular";
+    font-style: italic;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.formLeyendaCampo{
+    font-family: "robotoregular";
+    font-style: italic;
+    font-size: 10pt;
+}
+
+.formVisualizarNombreCampo{
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "robotomedium";
+}
+
+.formNombreCampo{
+    font-style: italic;
+    font-size: 10pt;
+    font-family: "robotobold";
+}
+
+.formCampo100{
+    width: 100%;
+}
+/* Fin Generales*/
+
+.ms-promlink-body {
+    width: 1000px;
+}
+
+.ms-promlink-header{
+    display:none;
+}
+
+/* Estilos del login de usuario */
+#dcLoginUsuario .media{
+    display: inline-block;
+}
+
+#dcLoginUsuario .imagenUsuarioLogueado{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    margin-top: 5px;
+}
+
+#dcLoginUsuario .imagenUsuarioLogueado img{
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.ajustarImagenLoginUsuarioAncho{
+    width: 100%;
+    height: auto;
+}
+
+.ajustarImagenLoginUsuarioAlto{
+    width: auto;
+    height: 40px;
+}
+
+#dcLoginUsuario .nombreUsuarioLogueado{
+    font-size: 12pt;
+    color: #fff;
+}
+
+#dcLoginUsuario .media-body{
+    width: auto !Important;
+    padding-right: 15px !Important;
+    max-width: 200px;
+    padding-top: 5px;
+    text-align: right;
+}
+
+#dcLoginUsuario .media-heading{
+    margin-bottom: 0px !important;
+}
+
+#dcLoginUsuario .media-right{
+    padding: initial !Important;
+}
+
+#dcLoginUsuario #siteactiontd{
+    vertical-align: top !Important;
+}
+
+@media (max-width: 550px){
+    #dcLoginUsuario .nombreUsuarioLogueado{
+        display: none;
+    }
+}

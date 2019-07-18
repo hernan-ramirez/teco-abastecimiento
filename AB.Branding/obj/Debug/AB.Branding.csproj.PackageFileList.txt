@@ -1,0 +1,1 @@
+bin\Debug\AB.Branding.wsp

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance FeatureId="{00000000-0000-0000-0000-000000000000}" 
+                TemplateType="124" 
+                Title="Composed Looks" 
+                Url="_catalogs/design" 
+                RootWebOnly="FALSE">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="ContentTypeId">0x0060A82B9F5D2F6A44A6A5723277B06731</Field>
+          <Field Name="_ModerationStatus">0</Field>
+          <Field Name="FSObjType">0</Field>
+          <Field Name="Title">Abastecimiento</Field>
+          <Field Name="Name">Abastecimiento</Field>
+          <Field Name="MasterPageUrl">/_catalogs/masterpage/Abastecimiento2013.master</Field>
+          <Field Name="ThemeUrl">/_catalogs/theme/15/Abastecimiento2013.spcolor</Field>
+          <Field Name="FontSchemeUrl">/_catalogs/theme/15/SharePointPersonality.spfont</Field>
+          <Field Name="ImageUrl">/Style Library/Abastecimiento/img/Master/HeaderBuscador.png</Field>
+          <Field Name="DisplayOrder">1</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

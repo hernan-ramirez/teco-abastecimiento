@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14F03107-8E67-4B7C-BCC7-0FEE627B5797}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AB.Branding</RootNamespace>
+    <AssemblyName>AB.Branding</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Features\Branding\Branding.EventReceiver.cs">
+      <DependentUpon>Branding.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Look\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d5f8b30d-f1cd-4c3f-8504-2be8cc9fff38}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Branding\Branding.feature">
+      <FeatureId>{daf02f4c-1a83-40dc-8419-d40c25b96c6d}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Master Page\Abastecimiento2013.master" />
+    <None Include="Master Page\Abastecimiento2013.preview" />
+    <None Include="Master Page\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5f17c5c6-136f-45df-ba03-2b5758eb7343}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{a0f66ed5-696b-4fe5-af8d-e987202eac04}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Style Library\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{32f6798b-7210-43bc-b0db-56c607df3d09}</SharePointProjectItemId>
+    </None>
+    <None Include="Theme\Abastecimiento2013.spcolor" />
+    <None Include="Theme\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{503436a8-bea1-4ab0-acdb-c975832be1f8}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Look\Elements.xml" />
+    <Content Include="Style Library\Abastecimiento\img\Logos\SiteLogo.png" />
+    <Content Include="Style Library\Abastecimiento\img\Logos\SofrecomFeature.png" />
+    <Content Include="Style Library\Abastecimiento\img\Master\acciones.png" />
+    <Content Include="Style Library\Abastecimiento\img\Master\arrowleft_dark_hover.gif" />
+    <Content Include="Style Library\Abastecimiento\img\Master\BandaPersonalDegrade.png" />
+    <Content Include="Style Library\Abastecimiento\img\Master\HamburguerMenuBlanco.png" />
+    <Content Include="Style Library\Abastecimiento\img\Master\HeaderBuscador.png" />
+    <Content Include="Style Library\Abastecimiento\img\Master\icon-arrow-down.png" />
+    <Content Include="Style Library\Abastecimiento\img\Master\more_arrow.png" />
+    <Content Include="Style Library\Abastecimiento\js\jquery-2.1.4.min.js" />
+    <Content Include="Style Library\Abastecimiento\css\SharePoint2013.css" />
+    <Content Include="Style Library\Abastecimiento\css\PortalAbastecimiento.css" />
+    <Content Include="Features\Branding\Branding.Template.xml">
+      <DependentUpon>Branding.feature</DependentUpon>
+    </Content>
+    <Content Include="Style Library\Abastecimiento\js\PortalAbastecimiento.js" />
+    <Content Include="Style Library\Abastecimiento\js\SharePoint2013.js" />
+    <Content Include="Master Page\Elements.xml" />
+    <Content Include="Style Library\Elements.xml" />
+    <Content Include="Theme\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

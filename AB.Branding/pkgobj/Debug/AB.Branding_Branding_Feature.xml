@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Instala el branding en el sitio con la estética del departamento de Abastecimiento" Id="42dc9919-98ba-4a44-a324-f92344b68227" ReceiverAssembly="AB.Branding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d0f0c170caeebf5b" ReceiverClass="AB.Branding.Features.Branding.BrandingEventReceiver" Scope="Web" Title="Branding Abastecimiento">
+  <ElementManifests>
+    <ElementManifest Location="Master Page\Elements.xml" />
+    <ElementFile Location="Master Page\Abastecimiento2013.master" />
+    <ElementFile Location="Master Page\Abastecimiento2013.preview" />
+    <ElementManifest Location="Theme\Elements.xml" />
+    <ElementFile Location="Theme\Abastecimiento2013.spcolor" />
+    <ElementManifest Location="Style Library\Elements.xml" />
+    <ElementFile Location="Style Library\Abastecimiento\js\SharePoint2013.js" />
+    <ElementFile Location="Style Library\Abastecimiento\js\PortalAbastecimiento.js" />
+    <ElementFile Location="Style Library\Abastecimiento\css\PortalAbastecimiento.css" />
+    <ElementFile Location="Style Library\Abastecimiento\css\SharePoint2013.css" />
+    <ElementFile Location="Style Library\Abastecimiento\js\jquery-2.1.4.min.js" />
+    <ElementFile Location="Style Library\Abastecimiento\img\Master\acciones.png" />
+    <ElementFile Location="Style Library\Abastecimiento\img\Master\arrowleft_dark_hover.gif" />
+    <ElementFile Location="Style Library\Abastecimiento\img\Master\BandaPersonalDegrade.png" />
+    <ElementFile Location="Style Library\Abastecimiento\img\Master\HamburguerMenuBlanco.png" />
+    <ElementFile Location="Style Library\Abastecimiento\img\Master\HeaderBuscador.png" />
+    <ElementFile Location="Style Library\Abastecimiento\img\Master\icon-arrow-down.png" />
+    <ElementFile Location="Style Library\Abastecimiento\img\Master\more_arrow.png" />
+    <ElementFile Location="Style Library\Abastecimiento\img\Logos\SiteLogo.png" />
+    <ElementFile Location="Style Library\Abastecimiento\img\Logos\SofrecomFeature.png" />
+    <ElementManifest Location="Look\Elements.xml" />
+  </ElementManifests>
+</Feature>

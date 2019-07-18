@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a0f66ed5-696b-4fe5-af8d-e987202eac04" solutionId="a0f66ed5-696b-4fe5-af8d-e987202eac04" resetWebServer="false" sharePointProductVersion="15.0" name="AB.Branding" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="daf02f4c-1a83-40dc-8419-d40c25b96c6d" />
+  </features>
+</package>
